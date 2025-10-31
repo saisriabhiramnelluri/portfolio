@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhiram Nelluri | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">Abhiram Nelluri</a>
+                </div>
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="education.html" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="mobile-menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Abhiram Nelluri</span></h1>
+                    <p class="hero-subtitle">Computer Science Engineer & Web Developer</p>
+                    <p class="hero-description">
+                        I'm passionate about building web applications and solving complex problems. 
+                        Currently pursuing B.Tech in Computer Science Engineering at Bennett University.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">
+                            Contact Me
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="resume.pdf" class="btn btn-outline" download>
+                            Download Resume
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image">
+                        <img src="profile-placeholder.jpg" alt="Nikhil Reddy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    I'm a Computer Science Engineering student at Bennett University with a CGPA of 9.45/10.0. 
+                    I'm passionate about web development and building applications that solve real-world problems.
+                    I have experience with full-stack development using Node.js, Express, and MongoDB.
+                    I'm also proficient in C++, Python, and SQL.
+                </p>
+                <div class="about-buttons">
+                    <a href="experience.html" class="btn btn-outline">
+                        View My Experience
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section-padding" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="skill-title">Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="skill-title">Other Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">English</span>
+                        <span class="skill-tag">Telugu</span>
+                        <span class="skill-tag">Hindi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+<section class="featured-projects section-padding" id="featured-projects">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-grid">
+            <!-- WashTrack Project -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project-washtrack.jpg" alt="WashTrack – Laundry Management Platform">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">WashTrack – Laundry Management Platform</h3>
+                    <p class="project-description">
+                        A full-stack multi-role laundry management platform with secure authentication, real-time dashboards, 
+                        and efficient CRUD-based service handling for students, managers, and admins.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Node.js</span>
+                        <span class="project-tag">Express.js</span>
+                        <span class="project-tag">MongoDB</span>
+                        <span class="project-tag">JWT</span>
+                        <span class="project-tag">EJS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/WashTrack" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="https://washtrack.vercel.app" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CampusEats Project -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project-campuseats.jpg" alt="CampusEats – Real-time Food Ordering System">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">CampusEats – Real-time Food Ordering System</h3>
+                    <p class="project-description">
+                        Built a real-time food ordering system featuring live order tracking, OTP verification, 
+                        and role-based access control for customers and vendors.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Node.js</span>
+                        <span class="project-tag">Express.js</span>
+                        <span class="project-tag">MongoDB</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">JWT</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/CampusEats" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="https://campuseats.onrender.com" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CodeVertex Project -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="project-codevertex.jpg" alt="CodeVertex – AI-Powered Code Translator">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">CodeVertex – AI-Powered Code Translator</h3>
+                    <p class="project-description">
+                        An AI-powered platform for real-time code translation across 25+ languages, 
+                        featuring Google Gemini API integration, dual-mode UI, and secure key management.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Flask</span>
+                        <span class="project-tag">JavaScript</span>
+                        <span class="project-tag">HTML</span>
+                        <span class="project-tag">CSS</span>
+                        <span class="project-tag">Google Gemini API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/yourusername/CodeVertex" class="project-link">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                        <a href="https://codevertex.vercel.app" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-button">
+            <a href="projects.html" class="btn btn-primary">
+                View All Projects
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="current-year"></span> Abhiram Nelluri. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:nikhilreddy.daram@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
